@@ -1,0 +1,30 @@
+{
+  "name": "rreb-packageservice",
+  "version": "0.1.0",
+  "description": "Creates Elastic Beanstalk packages for Windows Services",
+  "keywords": [
+	  "gruntplugin",
+	  "aws",
+	  "elasticbeanstalk",
+	  "windowsservice",
+	  "redriver",
+	  "rreb"
+  ],
+  "license": "MIT",
+  "author": {
+  	"name": "Red River Software",
+	 "url": "http://river.red/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RedRiverSoftware/rreb.git"
+  },
+  "files": [
+	  "tasks"
+  ],
+  "dependencies": {
+    "fs": "0.0.2",
+    "grunt": "^0.4.5",
+    "jszip": "^2.5.0"
+  }
+}
